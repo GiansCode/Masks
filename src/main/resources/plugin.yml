@@ -1,0 +1,12 @@
+name: Masks
+version: ${project.version}
+main: com.gfplugins.masks.Masks
+api-version: 1.14
+authors: [Gianluca]
+description: Create custom helmets that give off cool effects
+website: https://gfplugins.com
+
+commands:
+  mask:
+    aliases: [masks]
+    description: Base command

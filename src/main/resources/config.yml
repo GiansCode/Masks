@@ -1,0 +1,37 @@
+masks:
+  'example':
+    item:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdiOGY5ZTM4MWVlYzZhZjJkNGMzMTZmYzY4ODFhZDYzZDNhYmU0ZTk0OGNmZWVhZWU0ZmM0YzI1ODU1YTEifX19'
+      name: '&e&lExample mask &r&7(Wear To Use)'
+      lore:
+      - '&f '
+      - '&e&lThe Example Mask'
+      - '&f '
+      - '&f&nBenefits:'
+      - '&7&o- 1.5x Sell Booster'
+      - '&7&o- Unlimited Health Boost'
+    actions:
+      on:
+      - '[CONSOLE] eco give %player% 100'
+      off:
+      - '[CONSOLE] eco take %player% 100'
+
+messages:
+  no-permission: ' &6&l- &f&oYou do not have the required permissions to perform this action'
+  reload-success: ' &6&l-  &f&oSuccessfully reloaded the plugin'
+  no-mask-found: ' &6&l- &f&oA mask with the name %mask% does not exist'
+  not-a-number: ' &6&l- &f&oYou have specified an invalid number (%number%)'
+  gave-all-mask: ' &6&l- &f&oYou gave everyone online %amount% of the %mask% Mask'
+  gave-mask: ' &6&l- &f&oYou gave %player% %amount% of the %mask% Mask'
+  received-mask: ' &6&l- &f&oYou have received %amount% of the %mask% Mask from %sender%'
+  no-permission-mask: ' &6&l- &f&oYou do not have the required permissions to redeem the %mask% Mask'
+  help:
+    - '&f '
+    - '&cMasks &7- &fBy Gianluca'
+    - '&f '
+    - '&b/masks &7- &fReceive this message'
+    - '&b/masks list &7- &fList all the created Masks'
+    - '&b/masks reload &7- &fReload the configuration file'
+    - '&b/masks giveall <mask> <amount> &7- &fGive everyone online <amount> of the <mask> Mask'
+    - '&b/masks give <player> <mask> <amount> &7- &fGive <player> <amount> of the <mask> Mask'
+    - '&f '
